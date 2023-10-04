@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body{
+            background-color:#074e7d;
+        }
+        .navbar{
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            height: 95px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar img {
+        float:left;
+        margin: top 10%;;
+        margin: left 1000%;
+        width: 50px;
+        height: 50px;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin:13px 10px;
+        }
+        .navbar li a{
+            padding: 3px 2px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .navbar li a:hover{
+            color:rgb(69, 69, 247);
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 70px;
+        }
+        .navbar input{
+            border:2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 130px;
+        }
+        .title{
+            text-align: center;
+            color: rgb(244, 238, 238);
+            font-size: 3em;
+            animation: logoAnimation 2s ease-in-out;
+        }
+        
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+        
+        footer{
+            text-align: center;
+            margin: 10px;
+        }
+        .container{
+            display:flex;
+            animation: logoAnimation 3s ease-in;
+            margin-bottom: 10%;
+        }
+        
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(50);
+  }
+}
+        .item{
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: #b8e1fc;
+            box-shadow: 10px 10px rgb(98, 175, 247);
+            text-align: center;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+        .item{
+            background-color:#b8e1fc ;
+            text-align: center;
+            border-radius: 5px;
+            background-color:#b8e1fc ;
+            margin:10px;
+        }
+        .btn{
+            width: 100%;
+            background-color: rgb(225, 239, 226);
+            text-align: center;
+            translate: (-50%, -50%);
+            font-size:30px;
+            border-left: #b8ccf8;
+            border-radius: 10px;
+            padding: 10px;
+            color: black;
+        }
+        button:hover{
+            background-color: rgb(58, 211, 68);
+            color: azure;
+        }
+        .slideshow-container p {
+            color: rgb(206, 236, 248);
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: none;
+    width: 30%;
+    padding-left: 35%;
+            box-shadow: 10px 10px rgb(98, 175, 247);
+  }
+
+  .slide img {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .controls {
+    text-align: center;
+    padding: 10px;
+  }
+        .section-content3{
+            background-color: #b8e1fc;
+            border-radius: 10px;
+            height: 50px;
+            margin-top: 20px;
+        }
+        .section-content3 li{
+            float:left;
+            font-size: 14px;
+            list-style: none;
+            margin:13px 10px;
+        }
+        .section-content3 li a{
+            float: right;
+            padding: 16px 20px;
+            text-decoration:underline;
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+            <ul>
+                <li><img src="logo.png" alt="Logo"></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this web">
+                </div>
+                <div class="Login">
+                    <li><a href="login.html">Login</a></li>
+                </div>
+            </ul>
+        </nav>
+        
+        <h1 class="title">Welcome to UrbanEase.</h1>
+        <div class="container">
+            <div class="item" id="ABC">
+                
+                <h2>Fares, Distance, Time</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur expedita ducimus labore, esse voluptates eveniet ipsum dolores repellat commodi.f</p>
+                <button class="btn"><a href="SandD.html">Search Route</a> </button>
+            </div>
+            <div class="item" id="DEF">
+                <h2>Go through my Saved Routes</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur expedita ducimus labore, esse voluptates eveniet ipsum dolores repellat commodi.f</p>
+                <button class="btn"><a href="Saved.html">Saved Route</a></button>
+            </div>
+            <div class="item" id="GHI">
+                <h2>History</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur expedita ducimus labore, esse voluptates eveniet ipsum dolores repellat commodi.f</p>
+                <button class="btn"><a href="History.html">Previous Search</a></button>
+            </div>
+        </div>
+
+        <div class="section1">
+            <div class="slideshow-container">
+              
+              <p>We offer a wide range of services to meet your needs.</p>
+              <div class="slide fade">
+                <img src="247 support.png" alt="Image 1">
+              </div>
+          
+              <div class="slide fade">
+                <img src="real time.png" alt="Image 2">
+              </div>
+          
+              <div class="slide fade">
+                <img src="Convenience.png" alt="Image 3">
+              </div>
+          
+              <div class="slide fade">
+                <img src="Improved Traffic Flow.png" alt="Image 4">
+              </div>
+            </div>
+            <div class="controls">
+                <button onclick="changeSlide(-1)">Previous</button>
+                <button onclick="changeSlide(1)">Next</button>
+              </div>
+            
+              <script>
+                var currentSlide = 0;
+                var slides = document.querySelectorAll(".slide");
+            
+                function showSlide(n) {
+                  slides[currentSlide].style.display = "none";
+                  currentSlide = (n + slides.length) % slides.length;
+                  slides[currentSlide].style.display = "block";
+                }
+            
+                function changeSlide(n) {
+                  showSlide(currentSlide + n);
+                }
+            
+                function autoSlide() {
+                  changeSlide(1);
+                }
+            
+                setInterval(autoSlide, 3000); // Change image every 3 seconds
+              </script>
+            </div>
+          </div>
+
+          <div class="section3">
+            <div class="section-content3">
+                <li><p>Copyright © 2023 UrbanEase Pvt Ltd. All Rights Reserved.</p></li>
+                    <li><a href="#">Notices</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    
+            </div>
+    </header>
+</body>
+</html>
